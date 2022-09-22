@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="" alt=" width="66%">
+    <img src="" alt=" width='"66%">
 </p>
 
 <p align="center">
@@ -8,11 +8,9 @@
 
 ---
 
-Directory Lister is the easiest way to expose the contents of any web-accessible
-folder for browsing and sharing. With a zero configuration, drag-and-drop
-installation you'll be up and running in less than a minute.
+PS2Apps is a cumulative site for all the Playstation 1/2/3/4/5 programs and files I've hoarded over the past 10 years.
 
-Directory Lister is created and maintained by
+PS2Apps.com is created and maintained by
 [Nigel Caldwell](https://www.facebook.com/p10god/)
 
 Copyright
