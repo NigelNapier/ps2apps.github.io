@@ -1,9 +1,9 @@
 <p align="center">
-    <img src="" alt=" width='"66%">
+    <img src="" alt=" width=""66%">
 </p>
 
 <p align="center">
-    <a href="https://ps2apps.com"><img src="https://img.shields.io/badge/Join_the-Community-7b16ff.svg?style=for-the-badge" alt=""></a>
+    <a href="https://ps2apps.com"><img src="" alt=""></a>
 </p>
 
 ---
