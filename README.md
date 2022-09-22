@@ -1,2 +1,2 @@
 # ps2apps.github.io
-ps2apps site
+https://ps2apps.com
