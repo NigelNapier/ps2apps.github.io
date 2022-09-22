@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="" alt=" width=""66%">
+    <img src="" alt="" width=""66%">
 </p>
 
 <p align="center">
