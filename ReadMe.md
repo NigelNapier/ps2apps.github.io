@@ -1,17 +1,12 @@
 <p align="center">
-    <img src="" alt="" width=""66%">
+    <a href="https://repo.ps2apps.com"><img src="" alt=""></a>
 </p>
-
-<p align="center">
-    <a href="https://ps2apps.com"><img src="" alt=""></a>
-</p>
-
 ---
-
-PS2Apps is a cumulative site for all the Playstation 1/2/3/4/5 programs and files I've hoarded over the past 10 years.
-
-PS2Apps.com is created and maintained by
+repo.ps2apps.com  is created and maintained by
 [Nigel Caldwell](https://www.facebook.com/p10god/)
+and is a Sentora Repository site for installable modules.
+
+[Sentora](http://sentora.org) is based on an original fork of ZPanelCP, Sentora is an open-source web hosting control panel written in PHP and is designed to work with with Linux, UNIX and the BSD's.
 
 Copyright
 ---------
