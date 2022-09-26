@@ -8,6 +8,3 @@ Copyright
 ---------
 
 This project is licensed under the [MIT License](https://github.com/ps2apps.github.io/blob/master/LICENSE).
-
-
-<a href="http://example.com/" target="_blank">example</a>
