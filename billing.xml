@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updateserver>
+<version>10051</version>
+<ostype>all</ostype>
+<defaultcat>Reseller</defaultcat>
+<type>User</type>
+<desc>Billing System for ZPanel. This module enables users to sign up and automatically get login details after payment has been confirmed. </desc>
+<updatedesc>Version 10.0.5.1 is now more compatible with ZPanel 10.1.0 with a few minor appearance tweaks.</updatedesc> 
+<zpversion>10.1.0</zpversion>
+<authorname>Martin Kollerup and Others</authorname>
+<authoremail>rob@brownweb.com.au</authoremail>
+<authorurl>http://www.brownweb.com.au</authorurl>
+<updateurl>http://repo.dirt-cheap-hosting.co.nz/downloads/billing.xml</updateurl>
+<latestversion>10051</latestversion>
+<downloadurl>http://repo.dirt-cheap-hosting.co.nz/downloads/billing.zpp</downloadurl>
+</updateserver>

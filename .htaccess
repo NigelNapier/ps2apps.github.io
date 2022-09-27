@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/ [NC]
+RewriteCond %{REQUEST_URI} !\.(php|xml|txt)$ [NC]
+RewriteRule .* - [F,L]
+
+# Disable directory browsing
+Options -Indexes

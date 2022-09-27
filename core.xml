@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+<version>10051</version>
+<ostype>all</ostype>
+<defaultcat>Reseller</defaultcat>
+<type>User</type>
+<desc>Billing System for ZPanel. This module enables users to sign up and automatically get login details after payment has been confirmed. </desc>
+<updatedesc>Version 10.0.5.1 is now more compatible with ZPanel 10.1.0 with a few minor appearance tweaks.</updatedesc> 
+<zpversion>10.1.0</zpversion>
+<authorname>Martin Kollerup and Others</authorname>
+<authoremail>rob@brownweb.com.au</authoremail>
+<authorurl>http://www.brownweb.com.au</authorurl>
+<updateurl>http://repo.dirt-cheap-hosting.co.nz/downloads/billing.xml</updateurl>
+<latestversion>10051</latestversion>
+<downloadurl>http://repo.dirt-cheap-hosting.co.nz/downloads/billing.zpp</downloadurl>
+</module>
+<module>
+<version>1000</version>
+<ostype>all</ostype>
+<type>user</type>
+<defaultcat>Account Information</defaultcat>
+<desc>Important Downloads is for the Server Administrator to upload files for their clients to use.</desc>
+<updatedesc>Version 10.0.0 is the first release and compatible with ZPanel 10.1.0.</updatedesc> 
+<zpversion>10.1.0</zpversion>
+<authorname>PS2Guy</authorname>
+<authoremail>nigel@dirt-cheap-hosting.co.nz</authoremail>
+<authorurl>http://www.nigelcaldwell.tk/</authorurl>
+<updateurl>http://repo.dirt-cheap-hosting.co.nz/downloads/downloads.xml</updateurl>
+<latestversion>1000</latestversion>
+<downloadurl>http://repo.dirt-cheap-hosting.co.nz/downloads/downloads.zpp</downloadurl>
+</module>
+<module>
+<version>10001</version>
+<ostype>all</ostype>
+<type>user</type>
+<defaultcat>Database Management</defaultcat>
+<desc>MyWebSQL is a free, open source, web-based database management tool similar to PhpMyAdmin.</desc>
+<updatedesc>Version 10.0.0.1 has had a software update and the main module has been tweaked to be compatible with ZPanel 10.1.0.</updatedesc> 
+<zpversion>10.1.0</zpversion>
+<authorname>PS2Guy</authorname>
+<authoremail>nigel@dirt-cheap-hosting.co.nz</authoremail>
+<authorurl>http://www.nigelcaldwell.tk/</authorurl>
+<updateurl>http://repo.dirt-cheap-hosting.co.nz/downloads/mywebsql.xml</updateurl>
+<latestversion>10001</latestversion>
+<downloadurl>http://repo.dirt-cheap-hosting.co.nz/downloads/mywebsql.zpp</downloadurl>
+</module>
