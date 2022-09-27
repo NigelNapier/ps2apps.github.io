@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+<name>Links Data</name>
+<version>100</version>
+<defaultcat>other</defaultcat>
+<type>system</type>
+<desc>links data files</desc>
+<authorname>baldman</authorname>
+<authoremail>buznbox@gmail.com</authoremail>
+<authorurl>http://zppy.info.tm/</authorurl>
+<updateurl></updateurl>
+</module>

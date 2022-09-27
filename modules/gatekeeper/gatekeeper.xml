@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<updateserver>
+	<modulename>Gate Keeper</modulename>
+	<latestversion>1.0.0</latestversion>
+	<downloadurl>http://store.sentora.org/repo/gatekeeper/gatekeeper.zpp</downloadurl>
+	<desc>Easily view and change your XMWS API server key.</desc>
+	<updatedesc>Changes made to syntax.</updatedesc>
+	<ostype>all</ostype>
+	<senversion>1.0.1:1.0.2:1.0.3:2.0.0</senversion>
+	<authorname>Bobby Allen</authorname>
+	<authoremail>bobbyallen.uk@gmail.com</authoremail>
+	<authorurl>http://www.sentora.org/</authorurl>
+	<updateurl>http://store.sentora.org/repo/gatekeeper/gatekeeper.xml</updateurl>
+</updateserver>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+    <name></name> NOTE: Module Name.
+    <version>1.0.0</version> NOTE: Module Version.
+    <defaultcat></defaultcat> NOTE: Module Catergory.
+	<type></type> NOTE: Type of Module.
+    <desc></desc> NOTE: Module Description.
+	<ostype>all</ostype> NOTE: win=windows only. lin=linux only. all=all operating systems.
+	<senversion>1.0.1:1.0.2:1.0.3:2.0.0</senversion> NOTE: Which Sentora Version is it for.
+    <authorname></authorname> NOTE: Authors Name.
+    <authoremail></authoremail> NOTE: Authors Email.
+    <authorurl></authorurl> NOTE: Authors Web Address.
+    <updateurl>http://my_website/repo_folder/my_module/my_module.xml</updateurl> NOTE: Where can iot updated when changes are made.
+</module>

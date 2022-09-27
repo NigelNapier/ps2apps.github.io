@@ -1,0 +1,817 @@
+<@ Result @>
+<link rel="stylesheet" type="text/css" href="/modules/links_manager/assets/style.css">
+<table class="zcat"><tbody>
+   <tr>
+     <th align="left"><div class="zmodule_header" id="zmodule_header_<@ ModuleName @>"><img src="<@ ModuleIcon @>" border="0"><@ ModuleName @>
+     <div id="updn-info"><img src="<@ ArrowDn @>" width="17" height="14" id="info-show" /><img src="<@ ArrowUp @>" width="17" height="13" id="info-hide" /></div></th>
+   </tr>
+</tbody></table>
+
+<info style="display: block">
+<div class="links-prev"><table><tbody>
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+<tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-blank.png">
+   
+   <td>The <b>Links Manager</b> enables you to customise the links in your Links module.<br><br>
+<b>Note:</b> Disable the <em>Links Manager</em> in Module Admin for normal users and enable it for Admin only.<br> This will prevent other users changing your links. You can leave the <em>Links</em> module enabled for all users if you wish.<br><br>
+Use the forms below to customise your links. You can even hide or display them.<br><br>
+Simply click the blue arrows to the right to display the settings for each link. You can preview your changes below.
+
+
+
+   </td>
+</tr>
+</tbody></table>
+</div>
+</info>
+
+<script>
+	$("#info-show").click(function () {    $("info").show("slow");    });   
+	$("#info-hide").click(function () {  $("info").hide(1000);         });
+</script>
+
+
+
+<table class="zcat"><tbody>
+   <tr>
+     <th align="left"><span class="link-title">Link.1 Settings</span>
+     <div id="updn"><img src="<@ ArrowDn @>" width="17" height="14" id="link1-show" /><img src="<@ ArrowUp @>" width="17" height="13" id="link1-hide" /></div></th>
+   </tr>
+</tbody></table>
+
+
+
+<link1 style="display: none">
+<div class="forms"><table><tbody><br>
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+<tr>
+   <td>
+    <form name="FORM" id="FORM" method="post" action="./?module=links_manager&action=Link1Post">
+	     <div class="titles">
+		 Display Link:
+	     <select name="disp" id="disp">
+		 <option value="<@ Link1Disp @>"><@ Link1Disp @></option>
+         <option value="display">display</option>
+         <option value="none">none</option>
+         </select>
+		 &nbsp;&nbsp; 
+
+		 
+		 Icon:
+	     <select name="icon" id="icon">
+		 <option value="<@ Link1Icon @>"><@ Link1Icon @></option>
+		 <option value="Ajaxplorer">Ajaxplorer</option>
+		 <option value="Arrow">Arrow</option>
+		 <option value="blank">blank</option>
+		 <option value="hmail-admin">hmail-admin</option>
+		 <option value="phpbb">phpbb</option>
+         <option value="Round-Arrow">Round-Arrow</option>
+		 <option value="Web-Link">Web-Link</option>
+		 <option value="Xeams">Xeams</option>
+         </select>
+		 <br><br> 
+	     
+		 Link Name:
+         <input name="name" type="text" id="name" value="<@ Link1Name @>" size="35">
+	     <br><br>
+	     
+		 Url:
+         <input name="url" type="text" id="url" value="<@ Link1Url @>" size="55">
+	     <br><br>
+		 
+		 Description:<br>
+         <textarea name="description" id="description" cols="70" rows="5"><@ Link1Description @></textarea>
+	     <br><br>
+		 
+		 <button class="fg-button ui-state-default ui-corner-all" name="l1" id="l1" type="submit"><: Save :></button>
+		 </div>
+		 
+   </form>
+   </td>
+</tr>
+</tbody></table>
+</div>
+</link1>
+
+<div class="links-prev" style="display: <@ Link1Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link1Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link1url @>')"> </td>
+   <td width="600"><strong><@ Link1Name @></strong>
+   <br>
+   <@ Link1Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+
+<script>
+	$("#link1-show").click(function () {    $("link1").show("slow");    });   
+	$("#link1-hide").click(function () {  $("link1").hide(1000);         });
+</script>
+
+
+<table class="zcat"><tbody>
+   <tr>
+     <th align="left"><span class="link-title">Link.2 Settings</span>
+     <div id="updn"><img src="<@ ArrowDn @>" width="17" height="14" id="link2-show" /><img src="<@ ArrowUp @>" width="17" height="13" id="link2-hide" /></div></th>
+   </tr>
+</tbody></table>
+
+
+
+<link2 style="display: none">
+<div class="forms"><table><tbody><br>
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+<tr>
+   <td>
+    <form name="FORM" id="FORM" method="post" action="./?module=links_manager&action=Link2Post">
+	     <div class="titles">
+		 Display Link:
+	     <select name="disp" id="disp">
+		 <option value="<@ Link2Disp @>"><@ Link2Disp @></option>
+         <option value="display">display</option>
+         <option value="none">none</option>
+         </select>
+		 &nbsp;&nbsp; 
+
+		 
+		 Icon:
+	     <select name="icon" id="icon">
+		 <option value="<@ Link2Icon @>"><@ Link2Icon @></option>
+		 <option value="Ajaxplorer">Ajaxplorer</option>
+		 <option value="Arrow">Arrow</option>
+		 <option value="blank">blank</option>
+		 <option value="hmail-admin">hmail-admin</option>
+		 <option value="phpbb">phpbb</option>
+         <option value="Round-Arrow">Round-Arrow</option>
+		 <option value="Web-Link">Web-Link</option>
+		 <option value="Xeams">Xeams</option>
+         </select>
+		 <br><br> 
+	     
+		 Link Name:
+         <input name="name" type="text" id="name" value="<@ Link2Name @>" size="35">
+	     <br><br>
+	     
+		 Url:
+         <input name="url" type="text" id="url" value="<@ Link2Url @>" size="55">
+	     <br><br>
+		 
+		 Description:<br>
+         <textarea name="description" id="description" cols="70" rows="5"><@ Link2Description @></textarea>
+	     <br><br>
+		 
+		 <button class="fg-button ui-state-default ui-corner-all" name="l1" id="l1" type="submit"><: Save :></button>
+		 </div>
+		 
+   </form>
+   </td>
+</tr>
+</tbody></table>
+</div>
+</link2>
+
+<div class="links-prev" style="display: <@ Link2Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link2Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link2url @>')"> </td>
+   <td width="600"><strong><@ Link2Name @></strong>
+   <br>
+   <@ Link2Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<script>
+	$("#link2-show").click(function () {    $("link2").show("slow");    });   
+	$("#link2-hide").click(function () {  $("link2").hide(1000);         });
+</script>
+
+
+<table class="zcat"><tbody>
+   <tr>
+     <th align="left"><span class="link-title">Link.3 Settings</span>
+     <div id="updn"><img src="<@ ArrowDn @>" width="17" height="14" id="link3-show" /><img src="<@ ArrowUp @>" width="17" height="13" id="link3-hide" /></div></th>
+   </tr>
+</tbody></table>
+
+
+
+<link3 style="display: none">
+<div class="forms"><table><tbody><br>
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+<tr>
+   <td>
+    <form name="FORM" id="FORM" method="post" action="./?module=links_manager&action=Link3Post">
+	     <div class="titles">
+		 Display Link:
+	     <select name="disp" id="disp">
+		 <option value="<@ Link3Disp @>"><@ Link3Disp @></option>
+         <option value="display">display</option>
+         <option value="none">none</option>
+         </select>
+		 &nbsp;&nbsp; 
+
+		 
+		 Icon:
+	     <select name="icon" id="icon">
+		 <option value="<@ Link3Icon @>"><@ Link3Icon @></option>
+		 <option value="Ajaxplorer">Ajaxplorer</option>
+		 <option value="Arrow">Arrow</option>
+		 <option value="blank">blank</option>
+		 <option value="hmail-admin">hmail-admin</option>
+		 <option value="phpbb">phpbb</option>
+         <option value="Round-Arrow">Round-Arrow</option>
+		 <option value="Web-Link">Web-Link</option>
+		 <option value="Xeams">Xeams</option>
+         </select>
+		 <br><br> 
+	     
+		 Link Name:
+         <input name="name" type="text" id="name" value="<@ Link3Name @>" size="35">
+	     <br><br>
+	     
+		 Url:
+         <input name="url" type="text" id="url" value="<@ Link3Url @>" size="55">
+	     <br><br>
+		 
+		 Description:<br>
+         <textarea name="description" id="description" cols="70" rows="5"><@ Link3Description @></textarea>
+	     <br><br>
+		 
+		 <button class="fg-button ui-state-default ui-corner-all" name="l1" id="l1" type="submit"><: Save :></button>
+		 </div>
+		 
+   </form>
+   </td>
+</tr>
+</tbody></table>
+</div>
+</link3>
+
+<div class="links-prev" style="display: <@ Link3Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link3Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link3url @>')"> </td>
+   <td width="600"><strong><@ Link3Name @></strong>
+   <br>
+   <@ Link3Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<script>
+	$("#link3-show").click(function () {    $("link3").show("slow");    });   
+	$("#link3-hide").click(function () {  $("link3").hide(1000);         });
+</script>
+
+<table class="zcat"><tbody>
+   <tr>
+     <th align="left"><span class="link-title">Link.4 Settings</span>
+     <div id="updn"><img src="<@ ArrowDn @>" width="17" height="14" id="link4-show" /><img src="<@ ArrowUp @>" width="17" height="13" id="link4-hide" /></div></th>
+   </tr>
+</tbody></table>
+
+
+
+<link4 style="display: none">
+<div class="forms"><table><tbody><br>
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+<tr>
+   <td>
+    <form name="FORM" id="FORM" method="post" action="./?module=links_manager&action=Link4Post">
+	     <div class="titles">
+		 Display Link:
+	     <select name="disp" id="disp">
+		 <option value="<@ Link4Disp @>"><@ Link4Disp @></option>
+         <option value="display">display</option>
+         <option value="none">none</option>
+         </select>
+		 &nbsp;&nbsp; 
+
+		 
+		 Icon:
+	     <select name="icon" id="icon">
+		 <option value="<@ Link4Icon @>"><@ Link4Icon @></option>
+		 <option value="Ajaxplorer">Ajaxplorer</option>
+		 <option value="Arrow">Arrow</option>
+		 <option value="blank">blank</option>
+		 <option value="hmail-admin">hmail-admin</option>
+		 <option value="phpbb">phpbb</option>
+         <option value="Round-Arrow">Round-Arrow</option>
+		 <option value="Web-Link">Web-Link</option>
+		 <option value="Xeams">Xeams</option>
+         </select>
+		 <br><br> 
+	     
+		 Link Name:
+         <input name="name" type="text" id="name" value="<@ Link4Name @>" size="35">
+	     <br><br>
+	     
+		 Url:
+         <input name="url" type="text" id="url" value="<@ Link4Url @>" size="55">
+	     <br><br>
+		 
+		 Description:<br>
+         <textarea name="description" id="description" cols="70" rows="5"><@ Link4Description @></textarea>
+	     <br><br>
+		 
+		 <button class="fg-button ui-state-default ui-corner-all" name="l1" id="l1" type="submit"><: Save :></button>
+		 </div>
+		 
+   </form>
+   </td>
+</tr>
+</tbody></table>
+</div>
+</link4>
+
+<div class="links-prev" style="display: <@ Link4Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link4Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link4url @>')"> </td>
+   <td width="600"><strong><@ Link4Name @></strong>
+   <br>
+   <@ Link4Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<script>
+	$("#link4-show").click(function () {    $("link4").show("slow");    });   
+	$("#link4-hide").click(function () {  $("link4").hide(1000);         });
+</script>
+
+<table class="zcat"><tbody>
+   <tr>
+     <th align="left"><span class="link-title">Link.5 Settings</span>
+     <div id="updn"><img src="<@ ArrowDn @>" width="17" height="14" id="link5-show" /><img src="<@ ArrowUp @>" width="17" height="13" id="link5-hide" /></div></th>
+   </tr>
+</tbody></table>
+
+
+
+<link5 style="display: none">
+<div class="forms"><table><tbody><br>
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+<tr>
+   <td>
+    <form name="FORM" id="FORM" method="post" action="./?module=links_manager&action=Link5Post">
+	     <div class="titles">
+		 Display Link:
+	     <select name="disp" id="disp">
+		 <option value="<@ Link5Disp @>"><@ Link5Disp @></option>
+         <option value="display">display</option>
+         <option value="none">none</option>
+         </select>
+		 &nbsp;&nbsp; 
+
+		 
+		 Icon:
+	     <select name="icon" id="icon">
+		 <option value="<@ Link5Icon @>"><@ Link5Icon @></option>
+		 <option value="Ajaxplorer">Ajaxplorer</option>
+		 <option value="Arrow">Arrow</option>
+		 <option value="blank">blank</option>
+		 <option value="hmail-admin">hmail-admin</option>
+		 <option value="phpbb">phpbb</option>
+         <option value="Round-Arrow">Round-Arrow</option>
+		 <option value="Web-Link">Web-Link</option>
+		 <option value="Xeams">Xeams</option>
+         </select>
+		 <br><br> 
+	     
+		 Link Name:
+         <input name="name" type="text" id="name" value="<@ Link5Name @>" size="35">
+	     <br><br>
+	     
+		 Url:
+         <input name="url" type="text" id="url" value="<@ Link5Url @>" size="55">
+	     <br><br>
+		 
+		 Description:<br>
+         <textarea name="description" id="description" cols="70" rows="5"><@ Link5Description @></textarea>
+	     <br><br>
+		 
+		 <button class="fg-button ui-state-default ui-corner-all" name="l1" id="l1" type="submit"><: Save :></button>
+		 </div>
+		 
+   </form>
+   </td>
+</tr>
+</tbody></table>
+</div>
+</link5>
+
+<div class="links-prev" style="display: <@ Link5Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link5Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link5url @>')"> </td>
+   <td width="600"><strong><@ Link5Name @></strong>
+   <br>
+   <@ Link5Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<script>
+	$("#link5-show").click(function () {    $("link5").show("slow");    });   
+	$("#link5-hide").click(function () {  $("link5").hide(1000);         });
+</script>
+
+<table class="zcat"><tbody>
+   <tr>
+     <th align="left"><span class="link-title">Link.6 Settings</span>
+     <div id="updn"><img src="<@ ArrowDn @>" width="17" height="14" id="link6-show" /><img src="<@ ArrowUp @>" width="17" height="13" id="link6-hide" /></div></th>
+   </tr>
+</tbody></table>
+
+
+
+<link6 style="display: none">
+<div class="forms"><table><tbody><br>
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+<tr>
+   <td>
+    <form name="FORM" id="FORM" method="post" action="./?module=links_manager&action=Link6Post">
+	     <div class="titles">
+		 Display Link:
+	     <select name="disp" id="disp">
+		 <option value="<@ Link6Disp @>"><@ Link6Disp @></option>
+         <option value="display">display</option>
+         <option value="none">none</option>
+         </select>
+		 &nbsp;&nbsp; 
+
+		 
+		 Icon:
+	     <select name="icon" id="icon">
+		 <option value="<@ Link6Icon @>"><@ Link6Icon @></option>
+		 <option value="Ajaxplorer">Ajaxplorer</option>
+		 <option value="Arrow">Arrow</option>
+		 <option value="blank">blank</option>
+		 <option value="hmail-admin">hmail-admin</option>
+		 <option value="phpbb">phpbb</option>
+         <option value="Round-Arrow">Round-Arrow</option>
+		 <option value="Web-Link">Web-Link</option>
+		 <option value="Xeams">Xeams</option>
+         </select>
+		 <br><br> 
+	     
+		 Link Name:
+         <input name="name" type="text" id="name" value="<@ Link6Name @>" size="35">
+	     <br><br>
+	     
+		 Url:
+         <input name="url" type="text" id="url" value="<@ Link6Url @>" size="55">
+	     <br><br>
+		 
+		 Description:<br>
+         <textarea name="description" id="description" cols="70" rows="5"><@ Link6Description @></textarea>
+	     <br><br>
+		 
+		 <button class="fg-button ui-state-default ui-corner-all" name="l1" id="l1" type="submit"><: Save :></button>
+		 </div>
+		 
+   </form>
+   </td>
+</tr>
+</tbody></table>
+</div>
+</link6>
+
+<div class="links-prev" style="display: <@ Link6Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link6Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link6url @>')"> </td>
+   <td width="600"><strong><@ Link6Name @></strong>
+   <br>
+   <@ Link6Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<script>
+	$("#link6-show").click(function () {    $("link6").show("slow");    });   
+	$("#link6-hide").click(function () {  $("link6").hide(1000);         });
+</script>
+
+<table class="zcat"><tbody>
+   <tr>
+     <th align="left"><span class="link-title">Link.7 Settings</span>
+     <div id="updn"><img src="<@ ArrowDn @>" width="17" height="14" id="link7-show" /><img src="<@ ArrowUp @>" width="17" height="13" id="link7-hide" /></div></th>
+   </tr>
+</tbody></table>
+
+
+
+<link7 style="display: none">
+<div class="forms"><table><tbody><br>
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+<tr>
+   <td>
+    <form name="FORM" id="FORM" method="post" action="./?module=links_manager&action=Link7Post">
+	     <div class="titles">
+		 Display Link:
+	     <select name="disp" id="disp">
+		 <option value="<@ Link7Disp @>"><@ Link7Disp @></option>
+         <option value="display">display</option>
+         <option value="none">none</option>
+         </select>
+		 &nbsp;&nbsp; 
+
+		 
+		 Icon:
+	     <select name="icon" id="icon">
+		 <option value="<@ Link7Icon @>"><@ Link7Icon @></option>
+		 <option value="Ajaxplorer">Ajaxplorer</option>
+		 <option value="Arrow">Arrow</option>
+		 <option value="blank">blank</option>
+		 <option value="hmail-admin">hmail-admin</option>
+		 <option value="phpbb">phpbb</option>
+         <option value="Round-Arrow">Round-Arrow</option>
+		 <option value="Web-Link">Web-Link</option>
+		 <option value="Xeams">Xeams</option>
+         </select>
+		 <br><br> 
+	     
+		 Link Name:
+         <input name="name" type="text" id="name" value="<@ Link7Name @>" size="35">
+	     <br><br>
+	     
+		 Url:
+         <input name="url" type="text" id="url" value="<@ Link7Url @>" size="55">
+	     <br><br>
+		 
+		 Description:<br>
+         <textarea name="description" id="description" cols="70" rows="5"><@ Link7Description @></textarea>
+	     <br><br>
+		 
+		 <button class="fg-button ui-state-default ui-corner-all" name="l1" id="l1" type="submit"><: Save :></button>
+		 </div>
+		 
+   </form>
+   </td>
+</tr>
+</tbody></table>
+</div>
+</link7>
+
+<div class="links-prev" style="display: <@ Link7Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link7Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link7url @>')"> </td>
+   <td width="600"><strong><@ Link7Name @></strong>
+   <br>
+   <@ Link7Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<script>
+	$("#link7-show").click(function () {    $("link7").show("slow");    });   
+	$("#link7-hide").click(function () {  $("link7").hide(1000);         });
+</script>
+
+<table class="zcat"><tbody>
+   <tr>
+     <th align="left"><span class="link-title">Link.8 Settings</span>
+     <div id="updn"><img src="<@ ArrowDn @>" width="17" height="14" id="link8-show" /><img src="<@ ArrowUp @>" width="17" height="13" id="link8-hide" /></div></th>
+   </tr>
+</tbody></table>
+
+
+
+<link8 style="display: none">
+<div class="forms"><table><tbody><br>
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+<tr>
+   <td>
+    <form name="FORM" id="FORM" method="post" action="./?module=links_manager&action=Link8Post">
+	     <div class="titles">
+		 Display Link:
+	     <select name="disp" id="disp">
+		 <option value="<@ Link8Disp @>"><@ Link8Disp @></option>
+         <option value="display">display</option>
+         <option value="none">none</option>
+         </select>
+		 &nbsp;&nbsp; 
+
+		 
+		 Icon:
+	     <select name="icon" id="icon">
+		 <option value="<@ Link8Icon @>"><@ Link8Icon @></option>
+		 <option value="Ajaxplorer">Ajaxplorer</option>
+		 <option value="Arrow">Arrow</option>
+		 <option value="blank">blank</option>
+		 <option value="hmail-admin">hmail-admin</option>
+		 <option value="phpbb">phpbb</option>
+         <option value="Round-Arrow">Round-Arrow</option>
+		 <option value="Web-Link">Web-Link</option>
+		 <option value="Xeams">Xeams</option>
+         </select>
+		 <br><br> 
+	     
+		 Link Name:
+         <input name="name" type="text" id="name" value="<@ Link8Name @>" size="35">
+	     <br><br>
+	     
+		 Url:
+         <input name="url" type="text" id="url" value="<@ Link8Url @>" size="55">
+	     <br><br>
+		 
+		 Description:<br>
+         <textarea name="description" id="description" cols="70" rows="5"><@ Link8Description @></textarea>
+	     <br><br>
+		 
+		 <button class="fg-button ui-state-default ui-corner-all" name="l1" id="l1" type="submit"><: Save :></button>
+		 </div>
+		 
+   </form>
+   </td>
+</tr>
+</tbody></table>
+</div>
+</link8>
+
+<div class="links-prev" style="display: <@ Link8Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link8Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link8url @>')"> </td>
+   <td width="600"><strong><@ Link8Name @></strong>
+   <br>
+   <@ Link8Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<script>
+	$("#link8-show").click(function () {    $("link8").show("slow");    });   
+	$("#link8-hide").click(function () {  $("link8").hide(1000);         });
+</script>
+
+<table class="zcat"><tbody>
+   <tr>
+     <th align="left"><span class="link-title">Link.9 Settings</span>
+     <div id="updn"><img src="<@ ArrowDn @>" width="17" height="14" id="link9-show" /><img src="<@ ArrowUp @>" width="17" height="13" id="link9-hide" /></div></th>
+   </tr>
+</tbody></table>
+
+
+
+<link9 style="display: none">
+<div class="forms"><table><tbody><br>
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+<tr>
+   <td>
+    <form name="FORM" id="FORM" method="post" action="./?module=links_manager&action=Link9Post">
+	     <div class="titles">
+		 Display Link:
+	     <select name="disp" id="disp">
+		 <option value="<@ Link9Disp @>"><@ Link9Disp @></option>
+         <option value="display">display</option>
+         <option value="none">none</option>
+         </select>
+		 &nbsp;&nbsp; 
+
+		 
+		 Icon:
+	     <select name="icon" id="icon">
+		 <option value="<@ Link9Icon @>"><@ Link9Icon @></option>
+		 <option value="Ajaxplorer">Ajaxplorer</option>
+		 <option value="Arrow">Arrow</option>
+		 <option value="blank">blank</option>
+		 <option value="hmail-admin">hmail-admin</option>
+		 <option value="phpbb">phpbb</option>
+         <option value="Round-Arrow">Round-Arrow</option>
+		 <option value="Web-Link">Web-Link</option>
+		 <option value="Xeams">Xeams</option>
+         </select>
+		 <br><br> 
+	     
+		 Link Name:
+         <input name="name" type="text" id="name" value="<@ Link9Name @>" size="35">
+	     <br><br>
+	     
+		 Url:
+         <input name="url" type="text" id="url" value="<@ Link9Url @>" size="55">
+	     <br><br>
+		 
+		 Description:<br>
+         <textarea name="description" id="description" cols="70" rows="5"><@ Link9Description @></textarea>
+	     <br><br>
+		 
+		 <button class="fg-button ui-state-default ui-corner-all" name="l1" id="l1" type="submit"><: Save :></button>
+		 </div>
+		 
+   </form>
+   </td>
+</tr>
+</tbody></table>
+</div>
+</link9>
+
+<div class="links-prev" style="display: <@ Link9Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link9Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link9url @>')"> </td>
+   <td width="600"><strong><@ Link9Name @></strong>
+   <br>
+   <@ Link9Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<script>
+	$("#link9-show").click(function () {    $("link9").show("slow");    });   
+	$("#link9-hide").click(function () {  $("link9").hide(1000);         });
+</script>
+
+<table class="zcat"><tbody>
+   <tr>
+     <th align="left"><span class="link-title">Link.10 Settings</span>
+     <div id="updn"><img src="<@ ArrowDn @>" width="17" height="14" id="link10-show" /><img src="<@ ArrowUp @>" width="17" height="13" id="link10-hide" /></div></th>
+   </tr>
+</tbody></table>
+
+
+
+<link10 style="display: none">
+<div class="forms"><table><tbody><br>
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+<tr>
+   <td>
+    <form name="FORM" id="FORM" method="post" action="./?module=links_manager&action=Link10Post">
+	     <div class="titles">
+		 Display Link:
+	     <select name="disp" id="disp">
+		 <option value="<@ Link10Disp @>"><@ Link10Disp @></option>
+         <option value="display">display</option>
+         <option value="none">none</option>
+         </select>
+		 &nbsp;&nbsp; 
+
+		 
+		 Icon:
+	     <select name="icon" id="icon">
+		 <option value="<@ Link10Icon @>"><@ Link10Icon @></option>
+		 <option value="Ajaxplorer">Ajaxplorer</option>
+		 <option value="Arrow">Arrow</option>
+		 <option value="blank">blank</option>
+		 <option value="hmail-admin">hmail-admin</option>
+		 <option value="phpbb">phpbb</option>
+         <option value="Round-Arrow">Round-Arrow</option>
+		 <option value="Web-Link">Web-Link</option>
+		 <option value="Xeams">Xeams</option>
+         </select>
+		 <br><br> 
+	     
+		 Link Name:
+         <input name="name" type="text" id="name" value="<@ Link10Name @>" size="35">
+	     <br><br>
+	     
+		 Url:
+         <input name="url" type="text" id="url" value="<@ Link10Url @>" size="55">
+	     <br><br>
+		 
+		 Description:<br>
+         <textarea name="description" id="description" cols="70" rows="5"><@ Link10Description @></textarea>
+	     <br><br>
+		 
+		 <button class="fg-button ui-state-default ui-corner-all" name="l1" id="l1" type="submit"><: Save :></button>
+		 </div>
+		 
+   </form>
+   </td>
+</tr>
+</tbody></table>
+</div>
+</link10>
+
+<div class="links-prev" style="display: <@ Link10Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link10Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link10url @>')"> </td>
+   <td width="600"><strong><@ Link10Name @></strong>
+   <br>
+   <@ Link10Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<script>
+	$("#link10-show").click(function () {    $("link10").show("slow");    });   
+	$("#link10-hide").click(function () {  $("link10").hide(1000);         });
+</script>

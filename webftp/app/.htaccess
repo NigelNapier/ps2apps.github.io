@@ -1,0 +1,20 @@
+# Specific settings for net2ftp
+# Set the execution time in seconds.
+# And size of uploaded files
+
+# Script execution time in seconds.
+php_value max_execution_time 900
+
+# Allocated to the operation of RAM
+php_value memory_limit 128M
+
+# Limits the size of uploaded files
+php_value upload_max_filesize 50M
+
+# Specify the maximum file size
+# That PHP can handle method POST.
+# Set the size to 2 times more than can be sent.
+# This is done in order to not fall out net2ftp page
+# Authorization without explanation, when trying to send
+# Through a file larger than specified in the constraint.
+php_value post_max_size 100M

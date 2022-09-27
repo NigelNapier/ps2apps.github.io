@@ -1,7 +1,0 @@
-Launch HDD-OSD from ulaunchelf, drop the contents of the "_sysconf" folder into your "_sysconf" folder, and the contents of the "_system" folder into your "_system" folder.
-
-Make sure your hdd is formated, you can use "WinHIIP_v1.7.6" to format your hdd before dropping the files inside via ulaunchelf.
-
-Then Launch "HDD-OSD" by selecting the "hosdsys" file. in the "ods100" folder.
-
-KERMIT, has been given a new save ICON, when you use it to make your games bootable (the traditional hdloader icon). You can make your games bootable with HDD-OSD, make sure you drop the contest into the root of your memory card before use.

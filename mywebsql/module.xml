@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+<name>MyWebSQL</name>
+<version>10001</version>
+<ostype>all</ostype>
+<type>user</type>
+<defaultcat>Database Management</defaultcat>
+<desc>MyWebSQL is a free, open source, web-based database management tool similar to PhpMyAdmin.</desc>
+<updatedesc>Version 10.0.0.1 has had a software update and the main module has been tweaked to be compatible with ZPanel 10.1.0.</updatedesc> 
+<zpversion>10.1.0</zpversion>
+<authorname>PS2Guy</authorname>
+<authoremail>nigel@dirt-cheap-hosting.co.nz</authoremail>
+<authorurl>http://www.nigelcaldwell.tk/</authorurl>
+<updateurl>http://repo.dirt-cheap-hosting.co.nz/mywebsql.xml</updateurl>
+<latestversion>10001</latestversion>
+<downloadurl>http://repo.dirt-cheap-hosting.co.nz/downloads/mywebsql.zpp</downloadurl>
+</module>

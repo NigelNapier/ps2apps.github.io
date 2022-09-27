@@ -1,0 +1,152 @@
+<div class="zmodule_header" id="zmodule_header_<@ ModuleName @>"><img src="<@ ModuleIcon @>" border="0"><@ ModuleName @></div>
+<div class="zmodule_content" id="zmodule_header_<@ ModuleName @>">
+<style type="text/css">
+<!--
+.links {
+	background:#F1F4F6 url(../images/zgrid_zform_wrapper.png) left top repeat-x;
+	border:solid 1px #DFDFDF;
+	/*
+	border:solid 1px #E5F0F1;
+	*/
+	margin-bottom:10px;
+	margin-top:0px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:0px;
+	padding-left:20px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	min-height:52px;
+    }
+-->
+</style>
+
+<div class="links" style="display: <@ Link1Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link1Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link1url @>')"> </td>
+   <td width="600"><strong><@ Link1Name @></strong>
+   <br>
+   <@ Link1Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<div class="links" style="display: <@ Link2Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link2Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link2url @>')"> </td>
+   <td width="600"><strong><@ Link2Name @></strong>
+   <br>
+   <@ Link2Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<div class="links" style="display: <@ Link3Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link3Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link3url @>')"> </td>
+   <td width="600"><strong><@ Link3Name @></strong>
+   <br>
+   <@ Link3Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<div class="links" style="display: <@ Link4Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link4Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link4url @>')"> </td>
+   <td width="600"><strong><@ Link4Name @></strong>
+   <br>
+   <@ Link4Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<div class="links" style="display: <@ Link5Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link5Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link5url @>')"> </td>
+   <td width="600"><strong><@ Link5Name @></strong>
+   <br>
+   <@ Link5Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<div class="links" style="display: <@ Link6Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link6Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link6url @>')"> </td>
+   <td width="600"><strong><@ Link6Name @></strong>
+   <br>
+   <@ Link6Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<div class="links" style="display: <@ Link7Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link7Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link7url @>')"> </td>
+   <td width="600"><strong><@ Link7Name @></strong>
+   <br>
+   <@ Link7Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<div class="links" style="display: <@ Link8Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link8Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link8url @>')"> </td>
+   <td width="600"><strong><@ Link8Name @></strong>
+   <br>
+   <@ Link8Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<div class="links" style="display: <@ Link9Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link9Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link9url @>')"> </td>
+   <td width="600"><strong><@ Link9Name @></strong>
+   <br>
+   <@ Link9Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>
+
+<div class="links" style="display: <@ Link10Disp @>">
+<table width="700" border="0" cellspacing="1" cellpadding="1"><tbody>
+
+ <tr>
+   <td width="50" height="50"><img alt="" class="icon" src="/modules/links_manager/assets/icons/link_icon-<@ Link10Icon @>.png" style="cursor: pointer;" onClick="window.open  ('<@ Link10url @>')"> </td>
+   <td width="600"><strong><@ Link10Name @></strong>
+   <br>
+   <@ Link10Description @>
+   </td>
+</tr>
+</tbody></table>
+</div>

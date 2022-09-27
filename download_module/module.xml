@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+<name>Important Downloads</name>
+<version>1000</version>
+<ostype>all</ostype>
+<type>user</type>
+<defaultcat>Account Information</defaultcat>
+<desc>Important Downloads is for the Server Administrator to upload files for their clients to use.</desc>
+<updatedesc>Version 10.0.0 is the first release and compatible with ZPanel 10.1.0.</updatedesc> 
+<zpversion>10.1.0</zpversion>
+<authorname>PS2Guy</authorname>
+<authoremail>nigel@dirt-cheap-hosting.co.nz</authoremail>
+<authorurl>http://www.nigelcaldwell.tk/</authorurl>
+<updateurl>http://repo.dirt-cheap-hosting.co.nz/downloads.xml</updateurl>
+<latestversion>1000</latestversion>
+<downloadurl>http://repo.dirt-cheap-hosting.co.nz/downloads/downloads.zpp</downloadurl>
+</module>

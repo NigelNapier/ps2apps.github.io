@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+<name>WebFTP</name>
+<version>100</version>
+<defaultcat>File Management</defaultcat>
+<desc>WebFTP is a convenient way for you to control your site content online without the need to configure an FTP client.</desc>
+<authorname>Mark Grigoriev</authorname>
+<authoremail>markdark@yandex.ru</authoremail>
+<authorurl>http://www.zpanelcp.com/</authorurl>
+<updateurl>http://www.zpanelcp.com/uds/core.xml</updateurl>
+</module>

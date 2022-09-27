@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+<name>Links Manager</name>
+<version>100</version>
+<defaultcat>admin</defaultcat>
+<desc>Here you can customise your links for the Links module</desc>
+<authorname>baldman</authorname>
+<authoremail>buznbox@gmail.com</authoremail>
+<authorurl>http://zppy.info.tm/</authorurl>
+<updateurl></updateurl>
+</module>
